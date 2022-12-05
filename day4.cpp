@@ -35,7 +35,7 @@ int main() {
     const auto lines = read_strings_from_file("day4.input");
     int sum_completely = 0;
     int sum_partially = 0;
-    
+
     for(const auto& line : lines) {
         const auto left = range_from_line(line.substr(0, line.find(',')));
         const auto right = range_from_line(line.substr(line.find(',')+1));
