@@ -13,6 +13,7 @@ add_executable(day7 day7.cpp)
 add_executable(day8 day8.cpp)
 add_executable(day9 day9.cpp)
 add_executable(day10 day10.cpp)
+add_executable(day11 day11.cpp)
 
 if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")
     # a reasonably strict default set of warnings
